@@ -5,4 +5,5 @@ http
         res.write('Hello World !\n')
         res.end()
     })
-    .listen(4242)
+    .listen(process.argv[2])
+   
